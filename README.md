@@ -273,4 +273,5 @@ Credit for the inspiration for this should go to [@amanhimself](https://twitter.
 
 MIT License
 
-Copyright (c) 2017, Scott Spence. All rights reserved.
+Copyright (c) for portions of project nodejs-twitter-bot are held by [Scott Spence, 2017] as part of project twitter-bot-bootstrap. 
+All other copyright for project nodejs-twitter-bot are held by [Nicholas Huber, 2018].
