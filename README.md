@@ -1,4 +1,4 @@
-# Twitter bot bootstrap
+# Nodejs Twitter bot
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/spences10/twitter-bot-bootstrap.svg)](https://greenkeeper.io/) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://opensource.org/licenses/MIT) [![Chat](https://badges.gitter.im/awesome-twitter-bots/Lobby.svg)][gitter-url]
 
