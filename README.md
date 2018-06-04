@@ -1,6 +1,6 @@
 # Nodejs Twitter bot
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/spences10/twitter-bot-bootstrap.svg)](https://greenkeeper.io/) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://opensource.org/licenses/MIT) [![Chat](https://badges.gitter.im/awesome-twitter-bots/Lobby.svg)][gitter-url]
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://opensource.org/licenses/MIT) [![Chat](https://badges.gitter.im/awesome-twitter-bots/Lobby.svg)][gitter-url]
 
 <!--links-->
 [gitter-url]: https://gitter.im/awesome-twitter-bots/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
@@ -29,9 +29,8 @@
 
 This is a bootstrap for setting up a simple Twitter bot with Node.js using the npm `twit` module. The bot will retweet what you specify when configuring it. It will also reply to followers with a selection of canned responses.
 
-As a primer for this, there is a great post by [@amanhimself](https://twitter.com/amanhimself) on making your own twitter bot, check it out in the **Links** section. This is an expansion on that with further detail on configuration and deployment with `now` from Zeit.
 
-Before starting the clock you'll need to set up some accounts if you don't have them already.
+Before starting you'll need to set up some accounts if you don't have them already.
 
 ## What you'll need
 
@@ -42,8 +41,6 @@ Before starting the clock you'll need to set up some accounts if you don't have 
 ## Setup twitter
 
 Set up an application on the Twitter account you want to retweet from via: [https://apps.twitter.com/app/new](https://apps.twitter.com/app/new)
-
-As an example, I'll configure the old [@DroidScott](twitter.com/droidscott) twitter account I have so you can follow along.
 
 Straight forward enough for the twitter application, make sure you add your phone number to your Twitter account before clicking the **Create your Twitter application** button.
 
