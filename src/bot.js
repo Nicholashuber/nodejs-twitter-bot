@@ -78,7 +78,7 @@ var imageTweet = function () {
 
 ////////////////function upload_random_image(){
   console.log('Opening an image...');
-  var image_path = path.join(__dirname, '/images/' +'  ('+pick_random_cute_animal()+').png'),
+  var image_path = path.join(__dirname, '/files/' +'  ('+pick_random_cute_animal()+').png'),
       b64content = fs.readFileSync(image_path, { encoding: 'base64' });
 
   console.log('Uploading an image...');
