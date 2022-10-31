@@ -129,6 +129,17 @@ let retweet = function () {
   }
 
   Twitter.get('search/tweets', params, function (err, data) {
+      if (screenName !== -1) {
+    console.log('TWEET SELF! Skipped!!')
+  } else {
+    Twitter.post('statuses/update', tweet, function (err, data, response) {
+      if (err) {
+        console.log('Cannot Reply to Follower. ERROR!: ' + err)
+      } else {
+        console.log('Reply to follower. SUCCESS!')
+      }
+    })
+  }
     if (!err) { // if there no errors
       try {
         // grab ID of tweet to retweet
